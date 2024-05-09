@@ -1,0 +1,36 @@
+.heading3{
+    margin-top: 5%;
+    font-size: 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-grid2 {
+    display:flex;
+    width: 100%;
+    gap: 30px;
+    
+    margin-left: 100px;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+/* Style for each photo item */
+.photo-item2 {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for the images within each photo item */
+.photo-item2 img {
+    width:175px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for the images */
+.photo-item2 img:hover {
+    transform: scale(1.05);
+}
